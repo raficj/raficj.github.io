@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato';
+  font-size:  1rem;
 }
 
 h1,
@@ -32,6 +33,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight:  700;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -68,6 +70,33 @@ header.masthead .masthead-content .masthead-subheading {
 
 
 @media (min-width: 992px) {
+  section h2 {
+    font-size:  3rem;
+    line-height:  2.5rem;
+  }
+
+  .navbar-custom {
+    padding-top:  1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size:  2em;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+  }
+
+  .navbar-custom .navbar-shrink {
+    padding-top:  0.5rem;
+    padding-bottom:  0.5rem;
+  }
+
+  .navbar-custom .navbar-shrink .navbar-brand {
+    font-size:  1.5em;
+  }
+
+
   header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
@@ -178,4 +207,5 @@ section.contact :-ms-input-placeholder {
 section {
   padding: 6rem 0;
 }
+
 
