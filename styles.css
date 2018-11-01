@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - One Page Wonder v5.0.0 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Lato';
 }
@@ -55,23 +49,12 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-/*header.masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
-}*/
+
 
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
-  color:  black;
+  color:  #fff;
 }
 
 header.masthead .masthead-content .masthead-heading {
@@ -82,41 +65,7 @@ header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
 
-header.masthead .bg-circle {
-  z-index: 0;
-  position: absolute;
-  border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
-}
 
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
-}
-
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
-}
 
 @media (min-width: 992px) {
   header.masthead {
@@ -130,15 +79,11 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
-
-.bg-primary {
-  background-color: #ee0979 !important;
+header.masthead {
 }
 
-.btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
-}
+
+
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #bd0760 !important;
@@ -165,7 +110,11 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
-section.contact {
+aside {
+  color:  #ffffff;
+}
+
+section.contact, aside {
   background-color: #212529;
 }
 
@@ -220,4 +169,13 @@ section.contact :-ms-input-placeholder {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.img-fluid {
+  border-radius: 5%;
+  width:  75%;
+}
+
+
+section {
+  padding: 6rem 0;
+}
 
