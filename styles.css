@@ -76,8 +76,6 @@ header.masthead .masthead-content .masthead-subheading {
   }
 
   .navbar-custom {
-    padding-top:  1.5rem;
-    padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
