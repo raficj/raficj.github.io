@@ -1,7 +1,10 @@
 $(document).ready(function(){
+
+  var navbar = document.querySelector('.navbar');
+  var logo = document.querySelector('.logo');
   // elements appear on scroll
   ScrollReveal().reveal('.headline');
-  ScrollReveal().reveal('.tagline');
+  ScrollReveal().reveal('.tagline', {delay:500});
 
   
   var scrollLink = $('.scroll');
@@ -27,5 +30,24 @@ $(document).ready(function(){
       }
     });
   });
+
+       window.onscroll = function(){
+  scrollFunction();
+};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      navbar.style.padding = "12px 10px";
+      logo.style.fontSize = "25px";
+    } else {
+      navbar.style.padding = "24px 10px";
+      logo.style.fontSize = "30px";
+    }
+  }
+
 })
+
+
+
+
 
