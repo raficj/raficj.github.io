@@ -17,7 +17,7 @@ h6 {
 
 .btn-xl {
   text-transform: uppercase;
-  padding: 1.5rem 3rem;
+  padding: 1rem 1.5rem;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
@@ -102,6 +102,8 @@ header.masthead {
 #about {
   background-color: #212529;
 }
+
+
 
 section.contact {
   margin-top: 130px; 
@@ -304,28 +306,27 @@ footer {
 /***** social *****/
 
 .fa {
-  padding:  12px;
-  font-size: 18px;
-  margin-right: 10px;
-  border-radius: 10px;
+  padding:  17px;
+  font-size: 23px;
+  margin: 5px 3px;
+  text-align:  center;
+  text-decoration: none;
+  border-radius:  50%;
 }
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     text-decoration: none;
+    color:  white;
 }
 
 .fa-facebook {
   background: #3B5998;
   color: white;
+  font-size: ;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
+.fa-instagram {
+  background: #125688;
   color: white;
 }
 
@@ -333,29 +334,12 @@ footer {
   background: #007bb5;
   color: white;
 }
-
-
-
-.success {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #468847;
-  background-color: #dff0d8;
-  border: 1px solid #d6e9c6;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+.fa-google {
+  background: #dd4b39;
+  color: white;
 }
 
-.error {
-  padding: 1em;
-  margin-bottom: 0.75rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #b94a48;
-  background-color: #f2dede;
-  border: 1px solid rgba(185, 74, 72, 0.3);
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
 }
