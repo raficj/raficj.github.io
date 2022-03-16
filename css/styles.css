@@ -40,7 +40,7 @@ Variables
   --clr-white: #fff;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
-  --transition: all 0.3s linear;
+  --transition: all 0.2s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -108,6 +108,16 @@ h4 {
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+}
+.video-text a:link {
+  color: var(--clr-grey-1);
+  font-weight: bold;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-bottom: dotted;
+}
+.video-text a:hover {
+  color: var(--clr-primary-5);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -244,6 +254,7 @@ Navbar
     letter-spacing: var(--spacing);
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    border-bottom: dotted;
   }
   .nav-links a:hover {
     color: var(--clr-primary-5);
@@ -261,7 +272,7 @@ Navbar
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--clr-white);
+  background: #fff2e6;
   z-index: 2;
   box-shadow: var(--light-shadow);
 }
