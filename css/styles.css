@@ -634,7 +634,7 @@ Connect
   height: 100%;
   background: var(--clr-white);
   /* background: rgba(0, 0, 0, 0.6); */
-  opacity: 0.7;
+  opacity: 0.1;
   z-index: -1;
 }
 .connect {
@@ -652,7 +652,7 @@ Connect
   padding: 3rem 5rem 12rem 5rem;
   text-align: center;
 
-  -webkit-clip-path: polygon(
+  /* -webkit-clip-path: polygon(
     0% 0%,
     100% 0%,
     100% 75%,
@@ -669,10 +669,10 @@ Connect
     75% 100%,
     50% 75%,
     0% 75%
-  );
+  ); */
 }
 .connect {
-  -webkit-clip-path: polygon(
+  /* -webkit-clip-path: polygon(
     50% 0%,
     100% 10%,
     100% 90%,
@@ -680,7 +680,7 @@ Connect
     0 90%,
     0 10%
   );
-  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
+  clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%); */
 }
 /*
 =============== 
