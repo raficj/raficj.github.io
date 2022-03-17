@@ -227,11 +227,7 @@
         <h2>latest works</h2>
         <div class="underline"></div>
         <p class="projects-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          repudiandae cupiditate ea facilis incidunt, non sapiente! Debitis
-          magnam, earum assumenda obcaecati cum quaerat facere ratione molestiae
-          dignissimos aliquid blanditiis architecto voluptates delectus
-          voluptate animi nulla! Autem explicabo perspiciatis officia ea.
+          A small gallery of projects I'm proud of. I've worked on them together with incredible people from all over the world. Check them out.
         </p>
       </div>
       <!--end of section title -->
@@ -318,8 +314,27 @@
         </div>
         <!--end of section title -->
         <p class="video-text">
-            If you are looking to get ahold of me, you can send me an email at
-            <a href="mailto:rjouejati@gmail.com">rjouejati@gmail.com</a> or call me at 202-930-5161</a>
+            <!-- If you are looking to get ahold of me, you can send me an email at
+            <a href="mailto:rjouejati@gmail.com">rjouejati@gmail.com</a> or call me at 202-930-5161</a> -->
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+                </div>
         </p>
         <!-- <a href="contact.html" class="btn" >contact me</a> -->
       </div>
